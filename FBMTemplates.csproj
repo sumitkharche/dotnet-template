@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageType>Template</PackageType>
+    <PackageVersion>2.0.1</PackageVersion>
+    <PackageId>FBM.WebApi.Templates</PackageId>
+    <Title>FBM Templates for .NET</Title>
+    <Authors>FBM</Authors>
+    <Copyright>FBM</Copyright>
+    <Description>Template pack for creating .NET Web Api integrated with best practices.</Description>
+    <PackageTags>dotnet-new;templates</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <TargetFramework>netstandard2.0</TargetFramework>
+    
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>templates</ContentTargetFolders>
+    <NoWarn>$(NoWarn);NU5128</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
+    <Content Include="templates\.github\**\*"/>
+    <Compile Remove="**\*" />
+  </ItemGroup>
+
+</Project>

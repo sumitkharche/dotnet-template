@@ -1,0 +1,6 @@
+@FBMWebApiTemplate_HostAddress = http://localhost:5093
+
+GET {{FBMWebApiTemplate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

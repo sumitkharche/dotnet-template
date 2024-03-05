@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "FBM",
+  "classifications": [ "Web", "WebAPI" ],
+  "groupIdentity": "FBMWebAPI",
+  "identity": "FBMWebAPI.CSharp",
+  "name": "FBM ASP.NET Core Web API",
+  "description": "A project template for creating an ASP.NET Core Web API application.",
+  "shortName": "fbmwebapi",
+  "sourceName": "FBMWebApiTemplate",
+  "defaultName": "WebAPIApplication1",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+  }
+}
